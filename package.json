@@ -1,0 +1,37 @@
+{
+  "name": "react-mobile-sized-view",
+  "version": "1.0.0",
+  "description": "Mobile sized view component for React",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "typings": "lib/index.d.ts",
+  "repository": "https://github.com/junhoyeo/react-mobile-sized-view",
+  "author": {
+    "name": "JunhoYeo",
+    "email": "hanaro0704@naver.com"
+  },
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc",
+    "install-peers": "install-peers -f"
+  },
+  "files": [
+    "lib",
+    "README.md",
+    "LICENSE"
+  ],
+  "peerDependencies": {
+    "react": "^16.13.1",
+    "react-native": "^0.62.2"
+  },
+  "devDependencies": {
+    "@types/react": "^16.9.34",
+    "@types/react-native": "^0.62.4",
+    "@types/styled-components": "^5.1.0",
+    "install-peers-cli": "^2.2.0",
+    "typescript": "^3.8.3"
+  },
+  "dependencies": {
+    "styled-components": "^5.1.1"
+  }
+}
