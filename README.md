@@ -1,5 +1,5 @@
 # 🍑 react-mobile-sized-view
-> Mobile sized view component for React
+> Mobile sized view component for React, with support for neumorphism ui
 
 ## 📦 Usage
 

@@ -61,6 +61,6 @@ export const Screen = styled.div<IScreen>`
     screenLightShadow = '-31px -31px 62px #d9d9d9',
     screenDarkShadow = '-31px -31px 62px #ffffff',
   }) => css`
-    background-color: ${screenLightShadow}, ${screenDarkShadow};
+    box-shadow: ${screenLightShadow}, ${screenDarkShadow};
   `};
 `;
