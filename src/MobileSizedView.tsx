@@ -13,6 +13,7 @@ const MobileSizedView: React.FC<IMobileSizedView> = ({
   screenBackgroundColor,
   screenLightShadow,
   screenDarkShadow,
+  isRounded = false,
 }) => {
   return (
     <Layout
@@ -23,6 +24,7 @@ const MobileSizedView: React.FC<IMobileSizedView> = ({
           screenBackgroundColor={screenBackgroundColor}
           screenLightShadow={screenLightShadow}
           screenDarkShadow={screenDarkShadow}
+          isRounded={isRounded}
         >
           {children}
         </Screen>

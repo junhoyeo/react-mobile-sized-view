@@ -30,9 +30,7 @@ export const ScreenWrapper = styled.div`
 export const Screen = styled.div<IScreen>`
   width: 100%;
   max-width: 500px;
-  height: calc(100vh - 45px);
-  border-top-left-radius: 25px;
-  border-top-right-radius: 25px;
+  height: 100vh;
   display: flex;
   flex-direction: column;
   position: relative;
@@ -62,5 +60,11 @@ export const Screen = styled.div<IScreen>`
     screenDarkShadow = '-31px -31px 62px #ffffff',
   }) => css`
     box-shadow: ${screenLightShadow}, ${screenDarkShadow};
+  `};
+
+  ${({ isRounded = false }) => isRounded && css`
+    height: calc(100vh - 45px);
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
   `};
 `;

@@ -18,6 +18,7 @@ const App: React.FC = () => (
     screenBackgroundColor="#fefefe"
     screenLightShadow="-31px -31px 62px #FAE0E0"
     screenDarkShadow="31px 31px 62px #EAB6BE"
+    isRounded
   >
     <h1>Title in Screen</h1>
   </MobileSizedView>
