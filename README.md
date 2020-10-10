@@ -1,4 +1,5 @@
 # 🍑 react-mobile-sized-view
+
 > Mobile sized view component for React, with support for neumorphism ui
 
 ## 📦 Usage
@@ -26,3 +27,27 @@ const App: React.FC = () => (
 
 export default App;
 ```
+
+## ⚓️ Hooks
+
+```tsx
+import { useScreenSize } from 'react-mobile-sized-view';
+
+const SomeComponent: React.FC = () => {
+  const { width: screenWidth } = useScreenSize();
+  // Comes with SSR support
+
+  return (
+    <div
+      style={{
+        width: screenWidth,
+        height: screenWidth,
+        backgroundColor: 'coral',
+      }}
+    />
+  );
+};
+```
+
+- useScreenSize
+- useWindowSize
