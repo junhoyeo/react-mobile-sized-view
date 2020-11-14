@@ -9,4 +9,6 @@ export interface IScreen {
   isRounded?: boolean;
 }
 
-export default interface IMobileSizedView extends ILayout, IScreen {}
+export default interface IMobileSizedView extends ILayout, IScreen {
+  absoluteChildren?: React.ReactNode;
+}

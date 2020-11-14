@@ -21,6 +21,7 @@ export const ScreenWrapper = styled.div`
   display: flex;
   align-items: flex-end;
   justify-content: center;
+  position: relative;
 
   @media screen and (max-width: 1100px) {
     width: 100%;

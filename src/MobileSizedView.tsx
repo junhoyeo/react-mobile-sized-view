@@ -14,6 +14,7 @@ const MobileSizedView: React.FC<IMobileSizedView> = ({
   screenLightShadow,
   screenDarkShadow,
   isRounded = false,
+  absoluteChildren = null,
 }) => {
   return (
     <Layout
@@ -28,6 +29,7 @@ const MobileSizedView: React.FC<IMobileSizedView> = ({
         >
           {children}
         </Screen>
+        {absoluteChildren}
       </ScreenWrapper>
     </Layout>
   );
