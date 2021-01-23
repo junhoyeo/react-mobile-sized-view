@@ -3,7 +3,7 @@
 > Mobile sized view component for React, with support for neumorphism ui
 
 ## 🚀 Examples
-<img width="50%" src="docs/examples/buymetesla.png" /><img width="50%" src="docs/examples/nike-calendar.png">
+<img width="50%" src="https://github.com/junhoyeo/react-mobile-sized-view/raw/master/docs/examples/buymetesla.png" /><img width="50%" src="https://github.com/junhoyeo/react-mobile-sized-view/raw/master/docs/examples/nike-calendar.png">
 
 ## 📦 Usage
 
