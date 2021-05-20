@@ -1,11 +1,11 @@
-export interface ILayout {
-  backgroundColor?: string;
+import React from 'react';
+
+export interface ILayout extends React.HTMLAttributes<HTMLDivElement> {
+  screenStyle?: React.CSSProperties;
+  screenWrapperStyle?: React.CSSProperties;
 }
 
 export interface IScreen {
-  screenBackgroundColor?: string;
-  screenLightShadow?: string;
-  screenDarkShadow?: string;
   isRounded?: boolean;
 }
 

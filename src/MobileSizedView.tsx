@@ -9,24 +9,16 @@ import IMobileSizedView from './MobileSizedView.types';
 
 const MobileSizedView: React.FC<IMobileSizedView> = ({
   children,
-  backgroundColor,
-  screenBackgroundColor,
-  screenLightShadow,
-  screenDarkShadow,
   isRounded = false,
   absoluteChildren = null,
+  screenStyle = {},
+  screenWrapperStyle = {},
+  ...props
 }) => {
   return (
-    <Layout
-      backgroundColor={backgroundColor}
-    >
-      <ScreenWrapper>
-        <Screen
-          screenBackgroundColor={screenBackgroundColor}
-          screenLightShadow={screenLightShadow}
-          screenDarkShadow={screenDarkShadow}
-          isRounded={isRounded}
-        >
+    <Layout {...props}>
+      <ScreenWrapper style={screenWrapperStyle}>
+        <Screen style={screenStyle} isRounded={isRounded}>
           {children}
         </Screen>
         {absoluteChildren}

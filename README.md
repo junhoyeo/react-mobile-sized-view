@@ -18,10 +18,11 @@ import MobileSizedView from 'react-mobile-sized-view';
 
 const App: React.FC = () => (
   <MobileSizedView
-    backgroundColor="#F6DADB"
-    screenBackgroundColor="#fefefe"
-    screenLightShadow="-31px -31px 62px #FAE0E0"
-    screenDarkShadow="31px 31px 62px #EAB6BE"
+    style={{ backgroundColor: '#F6DADB' }}
+    screenStyle={{
+      backgroundColor: '#fefefe',
+      boxShadow: '-31px -31px 62px #FAE0E0, 31px 31px 62px #EAB6BE',
+    }}
     isRounded
   >
     <h1>Title in Screen</h1>

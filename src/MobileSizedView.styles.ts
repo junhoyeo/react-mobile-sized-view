@@ -10,10 +10,6 @@ export const Layout = styled.main<ILayout>`
   min-height: 100vh;
   display: flex;
   justify-content: center;
-
-  ${({ backgroundColor = '#f3f3f3' }) => backgroundColor && css`
-    background-color: ${backgroundColor};
-  `};
 `;
 
 export const ScreenWrapper = styled.div`
@@ -51,17 +47,6 @@ export const Screen = styled.div<IScreen>`
     border-top-left-radius: 0;
     border-top-right-radius: 0;
   }
-
-  ${({ screenBackgroundColor = '#fefefe' }) => screenBackgroundColor && css`
-    background-color: ${screenBackgroundColor};
-  `};
-
-  ${({
-    screenLightShadow = '-31px -31px 62px #d9d9d9',
-    screenDarkShadow = '-31px -31px 62px #ffffff',
-  }) => css`
-    box-shadow: ${screenLightShadow}, ${screenDarkShadow};
-  `};
 
   ${({ isRounded = false }) => isRounded && css`
     height: calc(100vh - 45px);
