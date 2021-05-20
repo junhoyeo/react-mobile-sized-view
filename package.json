@@ -1,6 +1,6 @@
 {
   "name": "react-mobile-sized-view",
-  "version": "1.0.7",
+  "version": "2.0.0",
   "description": "Mobile sized view component for React",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
