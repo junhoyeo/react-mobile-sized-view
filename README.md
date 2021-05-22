@@ -1,12 +1,12 @@
 # react-mobile-sized-view
 <a href="https://www.producthunt.com/posts/react-mobile-sized-view?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-react-mobile-sized-view" target="_blank"><img src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=296903&theme=light" alt="React Mobile Sized View - 🍑 Responsive Mobile-sized Wrapper for React | Product Hunt" style="width: 250px; height: 54px;" width="250" height="54" /></a>
 
-![demo image](https://github.com/junhoyeo/react-mobile-sized-view/raw/master/docs/demo.gif)
+![demo image](https://github.com/junhoyeo/react-mobile-sized-view/raw/main/docs/demo.gif)
 
 > 🍑 Responsive Mobile-sized Wrapper for React
 
 ## 🚀 Examples
-<a href="https://github.com/junhoyeo/buymetesla"><img width="50%" src="https://github.com/junhoyeo/react-mobile-sized-view/raw/master/docs/examples/buymetesla.png" /></a><a href="https://github.com/junhoyeo/NIKE-THE-DRAW-Calendar"><img width="50%" src="https://github.com/junhoyeo/react-mobile-sized-view/raw/master/docs/examples/nike-calendar.png"></a>
+<a href="https://github.com/junhoyeo/buymetesla"><img width="50%" src="https://github.com/junhoyeo/react-mobile-sized-view/raw/main/docs/examples/buymetesla.png" /></a><a href="https://github.com/junhoyeo/NIKE-THE-DRAW-Calendar"><img width="50%" src="https://github.com/junhoyeo/react-mobile-sized-view/raw/main/docs/examples/nike-calendar.png"></a>
 
 > ⚠️ Warning: **The following examples can be using the outdated version of this package, and can not be the best usage here**(this package was very ugly before I tidy up lol). Please use issues and PRs in this repository for sharing more ideas and suggestions, including proper exploits
 
@@ -63,5 +63,5 @@ const SomeComponent: React.FC = () => {
 };
 ```
 
-- [useScreenSize](https://github.com/junhoyeo/react-mobile-sized-view/blob/master/src/hooks/useScreenSize.ts): Use this to get the size of the `MobileSizedView`
-- [useWindowSize](https://github.com/junhoyeo/react-mobile-sized-view/blob/master/src/hooks/useWindowSize.ts)
+- [useScreenSize](https://github.com/junhoyeo/react-mobile-sized-view/blob/main/src/hooks/useScreenSize.ts): Use this to get the size of the `MobileSizedView`
+- [useWindowSize](https://github.com/junhoyeo/react-mobile-sized-view/blob/main/src/hooks/useWindowSize.ts)
