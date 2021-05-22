@@ -1,5 +1,7 @@
 # react-mobile-sized-view
 
+![demo image](https://github.com/junhoyeo/react-mobile-sized-view/raw/master/docs/demo.gif)
+
 > 🍑 Responsive Mobile-sized Wrapper for React
 
 ## 🚀 Examples
