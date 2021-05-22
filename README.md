@@ -12,6 +12,7 @@
 
 - [junhoyeo/buymetesla](https://github.com/junhoyeo/buymetesla)
 - [junhoyeo/NIKE-THE-DRAW-Calendar](https://github.com/junhoyeo/NIKE-THE-DRAW-Calendar)
+- [stevejkang/vue-mobile-sized-view](https://github.com/stevejkang/vue-mobile-sized-view)
 
 > **[🚀 Add your apps here too!](https://github.com/junhoyeo/react-mobile-sized-view/issues/new)**
 
