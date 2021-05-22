@@ -1,9 +1,16 @@
-# 🍑 react-mobile-sized-view
+# react-mobile-sized-view
 
-> Mobile sized view component for React, with support for neumorphism ui
+> 🍑 Responsive Mobile-sized Wrapper for React
 
 ## 🚀 Examples
-<img width="50%" src="https://github.com/junhoyeo/react-mobile-sized-view/raw/master/docs/examples/buymetesla.png" /><img width="50%" src="https://github.com/junhoyeo/react-mobile-sized-view/raw/master/docs/examples/nike-calendar.png">
+<a href="https://github.com/junhoyeo/buymetesla"><img width="50%" src="https://github.com/junhoyeo/react-mobile-sized-view/raw/master/docs/examples/buymetesla.png" /></a><a href="https://github.com/junhoyeo/NIKE-THE-DRAW-Calendar"><img width="50%" src="https://github.com/junhoyeo/react-mobile-sized-view/raw/master/docs/examples/nike-calendar.png"></a>
+
+> ⚠️ Warning: **The following examples can be using the outdated version of this package, and can not be the best usage here**(this package was very ugly before I tidy up lol). Please use issues and PRs in this repository for sharing more ideas and suggestions, including proper exploits
+
+- [junhoyeo/buymetesla](https://github.com/junhoyeo/buymetesla)
+- [junhoyeo/NIKE-THE-DRAW-Calendar](https://github.com/junhoyeo/NIKE-THE-DRAW-Calendar)
+
+> **[🚀 Add your apps here too!](https://github.com/junhoyeo/react-mobile-sized-view/issues/new)**
 
 ## 📦 Usage
 
@@ -53,5 +60,5 @@ const SomeComponent: React.FC = () => {
 };
 ```
 
-- useScreenSize
-- useWindowSize
+- [useScreenSize](https://github.com/junhoyeo/react-mobile-sized-view/blob/master/src/hooks/useScreenSize.ts): Use this to get the size of the `MobileSizedView`
+- [useWindowSize](https://github.com/junhoyeo/react-mobile-sized-view/blob/master/src/hooks/useWindowSize.ts)
