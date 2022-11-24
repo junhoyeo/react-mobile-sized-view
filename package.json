@@ -21,12 +21,10 @@
     "LICENSE"
   ],
   "peerDependencies": {
-    "react": "^16.13.1",
-    "react-native": "^0.62.2"
+    "react": "^16.13.1"
   },
   "devDependencies": {
     "@types/react": "^16.9.34",
-    "@types/react-native": "^0.62.4",
     "@types/styled-components": "^5.1.0",
     "install-peers-cli": "^2.2.0",
     "typescript": "^3.8.3"
